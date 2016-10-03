@@ -1,0 +1,15 @@
+/dev/ttyS1
+115200
+lock
+passive
+local
+novj
+novjccomp
+noipdefault
+#usepeerdns
+noauth
+connect /etc/ppp/a6-connect
+disconnect /etc/ppp/a6-disconnect
+defaultroute
+
+

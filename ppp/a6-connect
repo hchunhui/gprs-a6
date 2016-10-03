@@ -1,0 +1,8 @@
+#!/bin/sh
+exec chat  \
+        ''              'AT'                        \
+        OK              'AT+CGATT=1'                \
+        OK              'AT+CGDCONT=1,"IP","cmnet"' \
+        OK              'AT+CGACT=1,1'              \
+        OK              'ATD*99#'                   \
+        CONNECT         ''
