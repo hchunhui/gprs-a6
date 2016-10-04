@@ -8,7 +8,7 @@
 #include <string.h>
 #include <stdarg.h>
 
-#define BUF_SIZE 4096
+#define BUF_SIZE 1024
 
 int open_a6(char *name)
 {
